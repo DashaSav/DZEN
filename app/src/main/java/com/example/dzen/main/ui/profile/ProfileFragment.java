@@ -1,25 +1,24 @@
-package com.example.dzen.main.ui.dashboard;
+package com.example.dzen.main.ui.profile;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
-import com.example.dzen.databinding.FragmentDashboardBinding;
+import com.example.dzen.databinding.FragmentProfileBinding;
 
+public class ProfileFragment extends Fragment {
 
-public class DashboardFragment extends Fragment {
-
-    private FragmentDashboardBinding binding;
+    private FragmentProfileBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        binding = FragmentDashboardBinding.inflate(inflater, container, false);
+
+
+        binding = FragmentProfileBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         return root;
